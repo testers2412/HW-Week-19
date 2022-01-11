@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="com.restfullbooking.alltests.BookingTest" skipped="0" tests="4" time="6.55" timestamp="2022-01-11T23:24:51.153Z[Europe/London]"><testcase classname="com.restfullbooking.alltests.BookingTest" name="This will create the new booking"/><testcase classname="com.restfullbooking.alltests.BookingTest" name="Verify Booking is created"/><testcase classname="com.restfullbooking.alltests.BookingTest" name="Update the booking and verify"><error message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</error><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restfullbooking.stepinfo.BookingSteps.updateTheBooking(BookingSteps.java:57)&#13;
+com.restfullbooking.alltests.BookingTest.test003(BookingTest.java:63)&#13;
+</system-err></testcase><testcase classname="com.restfullbooking.alltests.BookingTest" name="Delete the newly created record with ID"><error message="Path parameters were not correctly defined. Redundant path parameters are: bookingId=11. Undefined path parameters are: bookingid." type="java.lang.IllegalArgumentException">Path parameters were not correctly defined. Redundant path parameters are: bookingId=11. Undefined path parameters are: bookingid.</error><system-err>Path parameters were not correctly defined. Redundant path parameters are: bookingId=11. Undefined path parameters are: bookingid.&#13;
+io.restassured.internal.RequestSpecificationImpl.assertCorrectNumberOfPathParams(RequestSpecificationImpl.groovy:1336)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1223)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)&#13;
+net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)&#13;
+net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)&#13;
+net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)&#13;
+net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)&#13;
+net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)&#13;
+net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
+io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
+io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1722)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1728)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy:180)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.execute(RequestSpecificationDecorated.java:230)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.delete(RequestSpecificationDecorated.java:131)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.delete(RequestSpecificationDecorated.java:27)&#13;
+com.restfullbooking.stepinfo.BookingSteps.deleteBooking(BookingSteps.java:68)&#13;
+com.restfullbooking.alltests.BookingTest.test004(BookingTest.java:74)&#13;
+</system-err></testcase></testsuite>

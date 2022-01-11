@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Student CRUD test","This will create new student","FAILURE","2022-01-09T23:06:37.875Z[Europe/London]","0.0","2.82"
+"Student CRUD test","Verify new created student was added","FAILURE","2022-01-09T23:06:40.722Z[Europe/London]","0.0","0.06"
+"Student CRUD test","Update the user information","FAILURE","2022-01-09T23:06:40.850Z[Europe/London]","0.0","0.14"
+"Student CRUD test","Delete the student and verify deletetion","FAILURE","2022-01-09T23:06:40.990Z[Europe/London]","0.0","0.02"

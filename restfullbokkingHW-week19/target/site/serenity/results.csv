@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Booking test","This will create the new booking","SUCCESS","2022-01-11T23:24:51.153Z[Europe/London]","0.0","4.31"
+"Booking test","Verify Booking is created","SUCCESS","2022-01-11T23:24:55.484Z[Europe/London]","0.0","1.17"
+"Booking test","Update the booking and verify","ERROR","2022-01-11T23:24:56.659Z[Europe/London]","0.0","0.99"
+"Booking test","Delete the newly created record with ID","ERROR","2022-01-11T23:24:57.781Z[Europe/London]","0.0","0.08"

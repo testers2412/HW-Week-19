@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.restfullbooking.alltests.BookingTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 9.155 sec <<< FAILURE! - in com.restfullbooking.alltests.BookingTest
+test003(com.restfullbooking.alltests.BookingTest)  Time elapsed: 0.982 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.restfullbooking.alltests.BookingTest.test003(BookingTest.java:64)
+
+test004(com.restfullbooking.alltests.BookingTest)  Time elapsed: 0.082 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.restfullbooking.alltests.BookingTest.test004(BookingTest.java:77)
+
